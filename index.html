@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Your Static Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <a href="https://codepatasala.github.io">
+            <img src="images/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="spacer"></div>
+        <nav>
+          <ul class="tabs">
+            <li><a href="https://codepatasala.github.io">Home</a></li>
+            <!-- <li><a href="#">About</a></li> -->
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="banner">
+          <img src="images/banner.png" alt="Banner" />
+        </div>
+      </section>
+      <section class="card-list">
+        <a href="course.html" class="card-link">
+          <div class="card" id="courses">
+            <img src="images/full-stack-poster.png" alt="Full Stack Card" />
+            <!-- <h2>Full-Stack Course</h2> -->
+            <!-- <p>Description of Full-Stack Course.</p> -->
+          </div>
+        </a>
+        <!-- Card 2 (YouTube Video Embed) -->
+        <div class="card youtube-card">
+          <div class="youtube-video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-qAn7nwQ7SA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p>Check out our YouTube channel!</p>
+        </div>
+        <!-- Add more card items as needed -->
+      </section>
+      <!-- Contact section -->
+      <section class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <p>You can reach us through various channels:</p>
+        <ul class="contact-links">
+          <li>
+            <a href="https://twitter.com/codepatasala" target="_blank"
+              ><img src="images/x-twitter.svg" alt="Twitter Icon" />Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://youtube.com/@codepatasala" target="_blank"
+              ><img src="images/youtube.svg" alt="YouTube Icon" />YouTube</a
+            >
+          </li>
+          <li>
+            <a href="https://discord.gg/dHvCTKrWc" target="_blank"
+              ><img src="images/discord.svg" alt="Discord Icon" />Discord</a
+            >
+          </li>
+          <li>
+            <a href="mailto:codepatasala@gmail.com"
+              ><img src="images/mail.svg" alt="Email Icon" />Email</a
+            >
+          </li>
+        </ul>
+        <!-- <p>Feel free to get in touch with us!</p> -->
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 All rights reserved.</p>
+    </footer>
+  </body>
+</html>
