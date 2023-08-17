@@ -79,7 +79,7 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     overflow: hidden;
-    width: 100%; /* Full width for vertical alignment */
+    width: 100%;
     padding: 20px;
     text-align: center;
 }
@@ -96,9 +96,23 @@ header {
 }
 
 .youtube-card {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Add white border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* overflow: hidden; */
+    width: 100%;
+    padding: 0; /* Reset padding for YouTube video */
+    text-align: center;
+}
+
+.youtube-video {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
     overflow: hidden;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 .youtube-video iframe {
