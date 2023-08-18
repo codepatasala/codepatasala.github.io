@@ -3,49 +3,316 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>Code Patasala - learn from the best</title>
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Course Outline</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles/bootstrap-styles.css" />
   </head>
   <body>
-    <header>
-      <div class="header-content">
-        <div class="logo">
-          <a href="https://codepatasala.com">
-            <img src="images/logo.png" alt="Logo" />
-          </a>
-        </div>
-        <div class="spacer"></div>
-        <nav>
-          <ul class="tabs">
-            <li><a href="https://codepatasala.com">Home</a></li>
-            <li><a href="https://codepatasala.com#courses">Courses</a></li>
-            <li><a href="https://codepatasala.com#youtube">Youtube</a></li>
-            <li><a href="https://codepatasala.com#contact">Contact</a></li>
-          </ul>
-        </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="https://codepatasala.com">
+        <img
+          src="images/logo.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt="Logo"
+        />
+        CodePatasala
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://codepatasala.com#courses"
+              >Courses</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://codepatasala.com#youtube"
+              >Youtube</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://codepatasala.com#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="jumbotron text-center bg-primary text-grey">
+      <h1 class="display-4">Welcome to CodePatasala</h1>
+      <p class="lead">Your Journey to Fullstack Development Starts Here</p>
     </header>
 
-    <main>
-      <section class="course-details">
-        <h2>Full-Stack Development Course</h2>
-        <p>This course covers the following topics:</p>
-        <ul>
-          <li>Introduction to Web Development</li>
-          <li>Front-End Technologies (HTML, CSS, JavaScript)</li>
-          <li>Back-End Technologies (Node.js, Express)</li>
-          <li>Database Management (MongoDB)</li>
-          <li>API Development</li>
-          <li>Deployment and Hosting</li>
-          <!-- Add more topics as needed -->
-        </ul>
-      </section>
-    </main>
+    <!-- Course Outline Section -->
+    <section class="container py-5">
+      <h2 class="text-center">Course Outline</h2>
 
-    <footer>
-      <p>&copy; 2023 All rights reserved.</p>
+      <!-- Java Section -->
+      <div class="accordion" id="javaAccordion">
+        <!-- Learning Java -->
+        <div class="card">
+          <div class="card-header" id="javaHeader">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#javaContent"
+                aria-expanded="true"
+                aria-controls="javaContent"
+              >
+                Learning Java (9 weeks)
+              </button>
+            </h2>
+          </div>
+          <div
+            id="javaContent"
+            class="collapse show"
+            aria-labelledby="javaHeader"
+            data-parent="#javaAccordion"
+          >
+            <div class="card-body">
+              <ul>
+                <li>
+                  <strong>Introduction & Setup (1 week)</strong>
+                  <ul>
+                    <li>
+                      Setting up development environment
+                      <ul>
+                        <li>JDK</li>
+                        <li>Editor - IntelliJ Community Edition</li>
+                        <li>Build Tool - Gradle</li>
+                        <li>Write a sample program</li>
+                        <li>Build, Deployment</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Git and GitHub
+                      <ul>
+                        <li>Git commands</li>
+                        <li>Setting up GitHub account</li>
+                      </ul>
+                    </li>
+                    <li>Exercise - Write a Java program and push to GitHub</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Java Basics (2 weeks)</strong>
+                  <ul>
+                    <li>Package, Class, Method</li>
+                    <li>
+                      Variables, Data Types, Operations, Control Flow, Loops
+                    </li>
+                    <li>Input, Output</li>
+                    <li>File Handling</li>
+                    <li>Exception Handling</li>
+                    <li>String manipulation</li>
+                    <li>Exercise</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Object Oriented Programming (1 week)</strong>
+                  <ul>
+                    <li>Class vs Object</li>
+                    <li>Inheritence, Interfaces, Abstract Classes</li>
+                    <li>Polymorphism</li>
+                    <li>Nested Classes, Anonymous classes</li>
+                    <li>Exercise</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Data Structures (2 weeks)</strong>
+                  <ul>
+                    <li>Arrays, Lists, Stack, Queue</li>
+                    <li>Collection Framework</li>
+                    <li>Concurrancy</li>
+                    <li>Searching, Sorting</li>
+                    <li>Trees BST</li>
+                    <li>Heap</li>
+                    <li>Hash Table, HashSet</li>
+                    <li>Graphs</li>
+                    <li>Exercise</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Advanced Concepts (1 week)</strong>
+                  <ul>
+                    <li>Generics</li>
+                    <li>Lamdas and Java Streams</li>
+                    <li>Exercise</li>
+                  </ul>
+                </li>
+                <li><strong>Solving coding problems (2 weeks)</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Learning SQL -->
+        <div class="card">
+          <div class="card-header" id="sqlHeader">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#sqlContent"
+                aria-expanded="true"
+                aria-controls="sqlContent"
+              >
+                Learning SQL (3 weeks)
+              </button>
+            </h2>
+          </div>
+          <div
+            id="sqlContent"
+            class="collapse"
+            aria-labelledby="sqlHeader"
+            data-parent="#javaAccordion"
+          >
+            <div class="card-body">
+              <ul>
+                <li>
+                  <strong>Introduction (1 week)</strong>
+                  <ul>
+                    <li>Setting up PostGreSQL</li>
+                    <li>Create Database, Table</li>
+                    <li>Understand Relational model</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>SQL query - Fundamentals (1 week)</strong>
+                  <ul>
+                    <li>Practice on sample data</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>SQL query - Advanced (1 week)</strong>
+                  <ul>
+                    <li>Practice on sample data</li>
+                  </ul>
+                </li>
+                <li><strong>Connect from a Java program</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- REST APIs -->
+        <div class="card">
+          <div class="card-header" id="restHeader">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#restContent"
+                aria-expanded="true"
+                aria-controls="restContent"
+              >
+                REST APIs (1 week)
+              </button>
+            </h2>
+          </div>
+          <div
+            id="restContent"
+            class="collapse"
+            aria-labelledby="restHeader"
+            data-parent="#javaAccordion"
+          >
+            <div class="card-body">
+              <!-- Content for REST APIs -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend - Spring Boot -->
+        <div class="card">
+          <div class="card-header" id="springHeader">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#springContent"
+                aria-expanded="true"
+                aria-controls="springContent"
+              >
+                Backend - Spring Boot (3 weeks)
+              </button>
+            </h2>
+          </div>
+          <div
+            id="springContent"
+            class="collapse"
+            aria-labelledby="springHeader"
+            data-parent="#javaAccordion"
+          >
+            <div class="card-body">
+              <!-- Content for Backend - Spring Boot -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Frontend - React -->
+        <div class="card">
+          <div class="card-header" id="reactHeader">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#reactContent"
+                aria-expanded="true"
+                aria-controls="reactContent"
+              >
+                Frontend - React
+              </button>
+            </h2>
+          </div>
+          <div
+            id="reactContent"
+            class="collapse"
+            aria-labelledby="reactHeader"
+            data-parent="#javaAccordion"
+          >
+            <div class="card-body">
+              <!-- Content for Frontend - React -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-grey text-center py-3">
+      <p>&copy; 2023 CodePatasala. All rights reserved.</p>
     </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

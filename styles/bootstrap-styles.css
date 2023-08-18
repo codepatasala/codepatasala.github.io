@@ -1,0 +1,37 @@
+/* Custom styles for color theme */
+:root {
+    --theme-color: #ffbd59;
+}
+:root {
+    --primary: var(--theme-color);
+    --primary-dark: darken(var(--theme-color), 10%);
+    --primary-light: lighten(var(--theme-color), 20%);
+}
+
+.bg-theme {
+    background-color: var(--theme-color) !important;
+}
+
+.text-theme {
+    color: var(--theme-color) !important;
+}
+
+.accordion .card-header .btn-link {
+    color: var(--theme-color) !important;
+}
+
+.accordion .card-header .btn-link:hover {
+    color: #c8a144 !important;
+}
+
+/* Update header background color */
+.jumbotron.bg-theme {
+    background-color: var(--theme-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--theme-color) !important;
+}
+.bg-dark {
+    background-color: var(--theme-color) !important;
+}

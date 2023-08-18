@@ -4,94 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <title>Code Patasala - learn from the best</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <div class="header-content">
-        <div class="logo">
-          <a href="https://codepatasala.com">
-            <img src="images/logo.png" alt="Logo" />
-          </a>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 logo">
+            <a href="https://codepatasala.com">
+              <img src="images/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <div class="col-md-9 text-md-right">
+            <nav>
+              <ul class="nav tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://codepatasala.com">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#youtube">Youtube</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div class="spacer"></div>
-        <nav>
-          <ul class="tabs">
-            <li><a href="https://codepatasala.com">Home</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#youtube">Youtube</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
 
-    <main>
+    <main style="padding-top: 20px">
       <section>
-        <div class="banner">
-          <img src="images/banner.png" alt="Banner" />
-        </div>
-      </section>
-      <section class="card-list">
-        <a href="course.html" class="card-link">
-          <div class="card" id="courses">
-            <img src="images/full-stack-poster.png" alt="Full Stack Card" />
-            <!-- <h2>Full-Stack Course</h2> -->
-            <!-- <p>Description of Full-Stack Course.</p> -->
-          </div>
-        </a>
-
-        <!-- Card 2 (YouTube Video Embed) -->
-        <div class="youtube-card" id="youtube">
-          <div class="card youtube-video">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/-qAn7nwQ7SA"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="banner">
+                <img src="images/banner.png" alt="Banner" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
+      <section class="container card-list">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="course.html" class="card-link">
+              <div class="card" id="courses">
+                <img
+                  src="images/full-stack-poster.png"
+                  alt="Full Stack Card"
+                  class="card-img-top"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-12">
+            <div class="youtube-card" id="youtube">
+              <div
+                class="card youtube-video embed-responsive embed-responsive-16by9"
+              >
+                <iframe
+                  class="embed-responsive-item"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/-qAn7nwQ7SA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <!-- Add more card items as needed -->
-      <!-- Contact section -->
-      <section class="contact-form" id="contact">
-        <h2>Contact Us</h2>
-        <p>You can reach us through various channels:</p>
-        <ul class="contact-links">
-          <li>
-            <a href="https://twitter.com/codepatasala" target="_blank"
-              ><img src="images/x-twitter.svg" alt="Twitter Icon" />Twitter</a
-            >
-          </li>
-          <li>
-            <a href="https://youtube.com/@codepatasala" target="_blank"
-              ><img src="images/youtube.svg" alt="YouTube Icon" />YouTube</a
-            >
-          </li>
-          <li>
-            <a href="https://discord.gg/dHvCTKrWc" target="_blank"
-              ><img src="images/discord.svg" alt="Discord Icon" />Discord</a
-            >
-          </li>
-          <li>
-            <a href="mailto:codepatasala@gmail.com"
-              ><img src="images/mail.svg" alt="Email Icon" />Email</a
-            >
-          </li>
-        </ul>
-        <!-- <p>Feel free to get in touch with us!</p> -->
+      <section class="container contact-form" id="contact">
+        <div class="row">
+          <div class="col">
+            <h2>Contact Us</h2>
+            <p>You can reach us through various channels:</p>
+            <ul class="list-unstyled contact-links">
+              <li>
+                <a href="https://twitter.com/codepatasala" target="_blank"
+                  ><img
+                    src="images/x-twitter.svg"
+                    alt="Twitter Icon"
+                  />Twitter</a
+                >
+              </li>
+              <li>
+                <a href="https://youtube.com/@codepatasala" target="_blank"
+                  ><img src="images/youtube.svg" alt="YouTube Icon" />YouTube</a
+                >
+              </li>
+              <li>
+                <a href="https://discord.gg/dHvCTKrWc" target="_blank"
+                  ><img src="images/discord.svg" alt="Discord Icon" />Discord</a
+                >
+              </li>
+              <li>
+                <a href="mailto:codepatasala@gmail.com"
+                  ><img src="images/mail.svg" alt="Email Icon" />Email</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="text-center py-3">
       <p>&copy; 2023 All rights reserved.</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
