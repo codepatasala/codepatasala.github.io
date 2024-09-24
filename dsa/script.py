@@ -118,7 +118,6 @@ def generate_html(df):
 
         # Generate cards for each problem
         for index, row in week_df.iterrows():
-            print("Row:", row)
             html += f"""
               <div class="card">
                 <div class="card-header" id="heading{index}">
@@ -133,9 +132,12 @@ def generate_html(df):
                   </h5>
                 </div>
                 <div id="collapse{index}" class="collapse" aria-labelledby="heading{index}" data-parent="#week{week}">
-                  <div class="card-body">
-                    <iframe width="560" height="315" src="{row['Video']}" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-                    <p>
+                  <div class="card-body">"""
+            if pd.notnull(row['Video']):
+                html += f"""<iframe width="560" height="315" src="{
+                    row['Video']}" title="YouTube video player" frameborder="0" allowfullscreen></iframe>"""
+            html += f"""
+                  <p>
                       <b>Summary:</b> {row['Summary']}<br>
                       <b>Topics:</b> {row['Topics']}<br>
                       <b>Difficulty:</b> {row['Difficulty']}<br>
