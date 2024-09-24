@@ -17,7 +17,7 @@
 }
 
 .accordion .card-header .btn-link {
-    color: var(--theme-color) !important;
+    /* color: var(--theme-color) !important; */
 }
 
 .accordion .card-header .btn-link:hover {

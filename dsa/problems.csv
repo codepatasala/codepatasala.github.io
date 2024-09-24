@@ -1,0 +1,76 @@
+Week,S. No.,URL,Summary,Topics,Difficulty,Time,Status,Video
+1,1,https://leetcode.com/problems/two-sum,Two Sum,Array,Easy,15 mins,Done,https://www.youtube.com/embed/Lyrlke8GuMw
+1,2,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Stack,Easy,20 mins,Done,https://www.youtube.com/embed/-qAn7nwQ7SA
+1,3,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Linked List,Easy,20 mins,Done,https://www.youtube.com/embed/zoJz1ZQvnJA
+1,4,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Array,Easy,20 mins,Done,https://www.youtube.com/embed/syzpE9ICHEA
+1,5,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,String,Easy,15 mins,Done,https://www.youtube.com/embed/QGGOasXINTU
+1,6,https://leetcode.com/problems/invert-binary-tree,Invert Binary Tree,Binary Tree,Easy,15 mins,Done,https://www.youtube.com/embed/DzYzo3xXnvE
+1,7,https://leetcode.com/problems/valid-anagram,Valid Anagram,String,Easy,15 mins,Done,https://www.youtube.com/embed/sdhwbfcJF6c
+1,8,https://leetcode.com/problems/binary-search,Binary Search,Binary Search,Easy,15 mins,Done,https://www.youtube.com/embed/BbPNpPh-oos
+1,9,https://leetcode.com/problems/flood-fill,Flood Fill,Graph,Easy,20 mins,Done,https://www.youtube.com/embed/-alTAENSXlE
+1,10,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree,Lowest Common Ancestor of a Binary Search Tree,Binary Search Tree,Easy,20 mins,Done,https://www.youtube.com/embed/d1inUu9Hw5s
+1,11,https://leetcode.com/problems/balanced-binary-tree,Balanced Binary Tree,Binary Tree,Easy,15 mins,Done,https://www.youtube.com/embed/wJb2yu9NCPg
+1,12,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Linked List,Easy,20 mins,Done,https://www.youtube.com/embed/5jrvqoZNdQs
+1,13,https://leetcode.com/problems/implement-queue-using-stacks,Implement Queue using Stacks,Stack,Easy,20 mins,Done,https://www.youtube.com/embed/qWDOl6ecGro
+2,1,https://leetcode.com/problems/first-bad-version,First Bad Version,Binary Search,Easy,20 mins,Done,https://www.youtube.com/embed/ZswXgtHUUVY
+2,2,https://leetcode.com/problems/ransom-note,Ransom Note,Hash Table,Easy,15 mins,Done,https://www.youtube.com/embed/d7vmVYKyN5Y
+2,3,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Dynamic Programming,Easy,20 mins,Done,https://www.youtube.com/embed/ySDqXK5FrF0
+2,4,https://leetcode.com/problems/longest-palindrome,Longest Palindrome,String,Easy,20 mins,Done,https://www.youtube.com/embed/p6VrguYwb0U
+2,5,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Linked List,Easy,20 mins,Done,https://www.youtube.com/embed/DBMfwX7gusc
+2,6,https://leetcode.com/problems/majority-element,Majority Element,Array,Easy,20 mins,Done,https://www.youtube.com/embed/0Rs0nNsFYJA
+2,7,https://leetcode.com/problems/add-binary,Add Binary,Binary,Easy,15 mins,Done,https://www.youtube.com/embed/P20ZYc9ETyg
+2,8,https://leetcode.com/problems/diameter-of-binary-tree,Diameter of Binary Tree,Binary Tree,Easy,30 mins,Done,https://www.youtube.com/embed/aHq1HSln3zg
+2,9,https://leetcode.com/problems/middle-of-the-linked-list,Middle of the Linked List,Linked List,Easy,20 mins,Done,https://www.youtube.com/embed/fD32XeGM7MI
+2,10,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Binary Tree,Easy,15 mins,Done,https://www.youtube.com/embed/ICJ252WY5Bw
+2,11,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Array,Easy,15 mins,Done,https://www.youtube.com/embed/4jDY3tEcJj0
+2,12,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Dynamic Programming,Medium,20 mins,Done,https://www.youtube.com/embed/cCphA-GTliQ
+3,1,https://leetcode.com/problems/insert-interval,Insert Interval,Array,Medium,25 mins,Done,https://www.youtube.com/embed/bmPN-sHqcSI
+3,2,https://leetcode.com/problems/01-matrix,01 Matrix,Graph,Medium,30 mins,Done,https://www.youtube.com/embed/vBzOqpmH3ws
+3,3,https://leetcode.com/problems/k-closest-points-to-origin,K Closest Points to Origin,Heap,Medium,30 mins,Done,https://www.youtube.com/embed/2FpxZh5grnk
+3,4,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characte,String,Medium,30 mins,Done,https://www.youtube.com/embed/p8uYVcpKKy4
+3,5,https://leetcode.com/problems/3sum,3Sum,Array,Medium,30 mins,Done,https://www.youtube.com/embed/0mnpqT9FDoA
+3,6,https://leetcode.com/problems/binary-tree-level-order-traversal,Binary Tree Level Order Traversal,Binary Tree,Medium,20 mins,Done,https://www.youtube.com/embed/ZPjQlPEyGB0
+3,7,https://leetcode.com/problems/clone-graph,Clone Graph,Graph,Medium,25 mins,Done,https://www.youtube.com/embed/yMmkyaFrmrE
+3,8,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Stack,Medium,30 mins,Done,https://www.youtube.com/embed/Pr0IIl7kWTc
+4,1,https://leetcode.com/problems/course-schedule,Course Schedule,Graph,Medium,30 mins,Done,https://www.youtube.com/embed/6SZk__mo30Y
+4,2,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Trie,Medium,35 mins,Done,https://www.youtube.com/embed/F3B9gI5MmdA
+4,3,https://leetcode.com/problems/coin-change,Coin Change,Dynamic Programming,Medium,25 mins,Done,https://www.youtube.com/embed/TjD1FshNsds
+4,4,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Array,Medium,30 mins,Done,https://www.youtube.com/embed/CX5F3IfupYc
+4,5,https://leetcode.com/problems/min-stack,Min Stack,Stack,Medium,20 mins,Done,https://www.youtube.com/embed/1f7F8lXj0aQ
+4,6,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Binary Search Tree,Medium,20 mins,Done,https://www.youtube.com/embed/qyo5ulDqqDU
+4,7,https://leetcode.com/problems/number-of-islands,Number of Islands,Graph,Medium,25 mins,Done,https://www.youtube.com/embed/rF_RC6XJP6g
+4,8,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Graph,Medium,30 mins,Done,https://www.youtube.com/embed/1fDU9cLmric
+5,1,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Binary Search,Medium,30 mins,Done,https://www.youtube.com/embed/3stde4xqetI
+5,2,https://leetcode.com/problems/combination-sum,Combination Sum,Array,Medium,30 mins,Done,https://www.youtube.com/embed/DnJOimB9ovs
+5,3,https://leetcode.com/problems/permutations,Permutations,Recursion,Medium,30 mins,Done,https://www.youtube.com/embed/8HweuK0N25I
+5,4,https://leetcode.com/problems/merge-intervals,Merge Intervals,Array,Medium,30 mins,Done,https://www.youtube.com/embed/WyqZMNQm9Mw
+5,5,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Binary Tree,Medium,25 mins,Done,https://www.youtube.com/embed/rEnYbArl2Mk
+5,6,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Binary Search,Medium,35 mins,Done,https://www.youtube.com/embed/Ah-Yu_pZMFQ
+5,7,https://leetcode.com/problems/accounts-merge,Accounts Merge,Graph,Medium,30 mins,Done,https://www.youtube.com/embed/ACzeUs3TdPE
+5,8,https://leetcode.com/problems/sort-colors,Sort Colors,Array,Medium,25 mins,Done,https://www.youtube.com/embed/ivGNmPcAp_s
+6,1,https://leetcode.com/problems/word-break,Word Break,Trie,Medium,30 mins,Done,https://www.youtube.com/embed/gRH6l9YMx-U
+6,2,https://leetcode.com/problems/partition-equal-subset-sum,Partition Equal Subset Sum,Dynamic Programming,Medium,30 mins,Done,https://www.youtube.com/embed/lXeW3iW-dSQ
+6,3,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),String,Medium,25 mins,Done,https://www.youtube.com/embed/Kfu5xnchVzs
+6,4,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Matrix,Medium,25 mins,Done,https://www.youtube.com/embed/M_nnevSpgxs
+6,5,https://leetcode.com/problems/subsets,Subsets,Recursion,Medium,30 mins,Done,https://www.youtube.com/embed/6qPLX7459pM
+6,6,https://leetcode.com/problems/binary-tree-right-side-view,Binary Tree Right Side View,Binary Tree,Medium,20 mins,Done,https://www.youtube.com/embed/ahsEMFfU2P4
+6,7,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,String,Medium,25 mins,Done,https://www.youtube.com/embed/HXQfRlWFq_M
+6,8,https://leetcode.com/problems/unique-paths,Unique Paths,Dynamic Programming,Medium,20 mins,Done,https://www.youtube.com/embed/ozHs7e-XvkI
+6,9,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal,Construct Binary Tree from Preorder and Inorder Traversal,Binary Tree,Medium,25 mins,Pending,
+7,1,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Array,Medium,35 mins,Pending,
+7,2,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Recursion,Medium,30 mins,Pending,
+7,3,https://leetcode.com/problems/word-search,Word Search,Graph,Medium,30 mins,Pending,
+7,4,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,String,Medium,30 mins,Pending,
+7,5,https://leetcode.com/problems/minimum-height-trees,Minimum Height Trees,Graph,Medium,30 mins,Pending,
+7,6,https://leetcode.com/problems/task-scheduler,Task Schedule,Heap,Medium,35 mins,Pending,
+7,7,https://leetcode.com/problems/lru-cache,LRU Cache,Linked List,Medium,30 mins,Pending,
+8,1,https://leetcode.com/problems/kth-smallest-element-in-a-bst,Kth Smallest Element in a BST,Binary Search Tree,Medium,25 mins,Pending,
+8,2,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,String,Hard,30 mins,Pending,
+8,3,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Binary Tree,Hard,40 mins,Pending,
+8,4,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Stack,Hard,35 mins,Pending,
+8,5,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Heap,Hard,30 mins,Pending,
+8,6,https://leetcode.com/problems/word-ladder,Word Ladder,Graph,Hard,45 mins,Pending,
+8,7,https://leetcode.com/problems/basic-calculator,Basic Calculator,Stack,Hard,40 mins,Pending,
+8,8,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Binary Search,Hard,45 mins,Pending,
+8,9,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Heap,Hard,30 mins,Pending,
+8,10,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Stack,Hard,35 mins,Pending,
