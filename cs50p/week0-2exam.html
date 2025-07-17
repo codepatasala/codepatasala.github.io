@@ -1,0 +1,79 @@
+<h1 id="cs50p-week-0week-1week-3-practice-exam">CS50P Week 0/Week 1/Week
+3 Practice Exam</h1>
+<p>There are 4 questions below. All four need to be attempted.</p>
+<ul>
+    <li><input type="checkbox"> <a href="#challenge-1-even-or-odd">Challenge 1: Even or Odd</a></li>
+    <li><input type="checkbox"> <a href="#challenge-2-grade-calculator">Challenge 2: Grade Calculator</a></li>
+    <li><input type="checkbox"> <a href="#challenge-3-string-manipulation">Challenge 3: String Manipulation</a></li>
+    <li><input type="checkbox"> <a href="#challenge-4-rock-paper-scissors">Challenge 4: Rock, Paper, Scissors</a></li>
+</ul>
+<h2 id="submission-instructions">Submission Instructions</h2>
+<ul>
+<li>Create one file for each challenge.
+<ul>
+<li>For example, <code>challenge1.py</code> for the first one.</li>
+</ul></li>
+<li>Each file should have the given function implemented.
+<ul>
+<li>For example, <code>challenge1.py</code> should have the
+<code>even_or_odd</code> function which takes a number as input.</li>
+</ul></li>
+<li>Zip all of them to <code>exam1.zip</code> and share on
+WhatsApp.</li>
+</ul>
+<hr>
+<h2 id="challenges">Challenges</h2>
+<h3 id="challenge-1-even-or-odd">Challenge 1: Even or Odd</h3>
+<p>Write a Python function that takes an integer as input and returns
+“Even” if the number is even, and “Odd” otherwise.
+<br>
+<strong>Example:</strong></p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(even_or_odd(<span class="dv">4</span>))  <span class="co"># Output: &quot;Even&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(even_or_odd(<span class="dv">3</span>))  <span class="co"># Output: &quot;Odd&quot;</span></span></code></pre></div>
+<hr>
+<h3 id="challenge-2-grade-calculator">Challenge 2: Grade Calculator</h3>
+<p>Write a Python function that takes a score (0-100) as input and
+returns the corresponding grade (A, B, C, D, or F). Use the following
+grading scale:</p>
+<ul>
+<li>A: 90-100</li>
+<li>B: 80-89</li>
+<li>C: 70-79</li>
+<li>D: 60-69</li>
+<li>F: below 60</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(calculate_grade(<span class="dv">85</span>)) <span class="co"># Output: &quot;B&quot;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(calculate_grade(<span class="dv">42</span>)) <span class="co"># Output: &quot;F&quot;</span></span></code></pre></div>
+<hr>
+<h3 id="challenge-3-string-manipulation">Challenge 3: String
+Manipulation</h3>
+<p>Write a Python function that takes a string as input and returns the
+string with all vowels removed. 
+<br>
+<strong>Example:</strong></p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(remove_vowels(<span class="st">&quot;Hello World&quot;</span>)) <span class="co"># Output: &quot;Hll Wrld&quot;</span></span></code></pre></div>
+<hr>
+<h3 id="challenge-4-rock-paper-scissors">Challenge 4: Rock, Paper,
+Scissors</h3>
+<p>Write a Python function that simulates a game of Rock, Paper,
+Scissors between two players. The function should take two inputs
+(player 1’s choice and player 2’s choice) and return the winner. Each
+player’s choice should be one of the following: “Rock”, “Paper”, or
+“Scissors”. The function should return a string indicating the winner of
+the game. For example:</p>
+<ul>
+<li>“Player 1 wins!” if player 1 wins</li>
+<li>“Player 2 wins!” if player 2 wins</li>
+<li>“It’s a tie!” if both players make the same choice</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rock_paper_scissors(<span class="st">&quot;Rock&quot;</span>, <span class="st">&quot;Scissors&quot;</span>)) <span class="co"># Output: &quot;Player 1 wins!&quot;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rock_paper_scissors(<span class="st">&quot;Scissors&quot;</span>, <span class="st">&quot;Paper&quot;</span>)) <span class="co"># Output: &quot;Player 1 wins!&quot;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rock_paper_scissors(<span class="st">&quot;Paper&quot;</span>, <span class="st">&quot;Rock&quot;</span>)) <span class="co"># Output: &quot;Player 1 wins!&quot;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rock_paper_scissors(<span class="st">&quot;Rock&quot;</span>, <span class="st">&quot;Rock&quot;</span>)) <span class="co"># Output: &quot;It&#39;s a tie!&quot;</span></span></code></pre></div>
+<hr>
